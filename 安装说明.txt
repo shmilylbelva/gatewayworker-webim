@@ -1,0 +1,13 @@
+
+# 如何运行  
+0、php版本最好为7.0以上
+
+1、将代码下载到本地环境，并配置好虚拟域名(没有也行)，使 网址根目录指向public ,例如E:\WWW\layim\public， 
+  
+2、新建数据库名 为 sanke ，并导入 back 文件夹下的 snake.sql 表，配置文件中的账户密码默认为root，如果和你的数据库不一样请修改数据库，地址为application/database.php，workerman配置地址vendor/Workerman/Applications/Config/Db.php同样也要修改
+  
+3、启动 getwayworker，请双击/vendor/Workerman/start_for_win.bat,然后不要关闭窗口。
+
+4、访问聊天系统，进入前台，前台用户密码默认为admin，用户在chatuser表，密码登录即可聊天。 请用两个浏览器打开，登录不同的账户互相聊天。 后台地址为/admin，账户密码为admin 
+
+5、启动 workerman后，不要关闭！！！
